@@ -9,10 +9,8 @@ from data_preprocessing.split_dataset import split_dataset
 from model.train_model import train_model
 from model.evaluate_model import evaluate_model
 
+#  SET PATHS (EDIT THESE)
 
-# -------------------------------
-# 📁 SET PATHS (EDIT THESE)
-# -------------------------------
 BASE_DATASET = r"C:\Users\KIIT\OneDrive\Desktop\Soil types\Original"
 AUGMENTED = "datasets/augmented"
 RESIZED = "datasets/resized"
@@ -46,7 +44,7 @@ def main():
     print("\n========== STEP 6: EVALUATION ==========")
     evaluate_model(MODEL_SAVE_PATH, f"{TRAIN_TEST_BASE}/Test", LABELS)
 
-    print("\n🎯 ALL STEPS COMPLETED SUCCESSFULLY!")
+    print("\n ALL STEPS COMPLETED SUCCESSFULLY!")
 
 
 if __name__ == "__main__":
