@@ -36,9 +36,6 @@ soil-mineral-classifier/
 ├── data_preprocessing/
 ├── model/
 ├── utils/
-├── notebooks/
-│   └── soilmineral.ipynb
-│
 ├── run_all.py
 ├── requirements.txt
 └── README.md
